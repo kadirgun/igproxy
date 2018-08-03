@@ -3,7 +3,7 @@ var proxy = require('express-http-proxy');
 var app = express()
 
 app.set('port', (process.env.PORT || 5000))
-app.use(proxy('https://cron.buysocial.net',{
+app.use(proxy('https://www.instagram.com',{
     proxyReqOptDecorator: function(proxyReqOpts, srcReq) {
       delete proxyReqOpts.headers['X-Forwarded-For'];
       return proxyReqOpts;
