@@ -3,7 +3,7 @@ var proxy = require('express-http-proxy');
 var app = express()
 
 app.set('port', (process.env.PORT || 5000))
-app.use(proxy('https://cron.buysocial.net',{
+app.use(proxy('https://ipinfo.io',{
   preserveHostHdr: true
 }));
 
