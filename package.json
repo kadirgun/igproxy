@@ -1,0 +1,30 @@
+{
+  "name": "igproxy",
+  "version": "0.0.1",
+  "description": "Instagram web proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-http-proxy": "^1.2.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kadirgun/igproxy"
+  },
+  "keywords": [
+    "node",
+    "instagram",
+    "proxy"
+  ],
+  "author": "Kadir Gün",
+  "contributors": [
+    "Kadir Gün <kadir@kadirgun.com> (http://kadirgun.com)"
+  ],
+  "license": "MIT"
+}

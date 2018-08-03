@@ -1,0 +1,7 @@
+{
+  "name": "IG Proxy",
+  "description": "Instagram Web Proxy",
+  "repository": "https://github.com/kadirgun/igproxy",
+  "logo": "https://rawgit.com/kadirgun/igproxy/master/public/instagram.svg",
+  "keywords": ["node", "instagram", "proxy"]
+}
